@@ -1,0 +1,19 @@
+1- Public constractor can be instantiated to create a new object and it can be inherited by other classes, where
+   private constractor can not be instantiated or inherited to extend to a new class.
+
+2- Encapsulation means hidding class details (data&method) by access modefiers (Private/Protected/public), where
+   Abstraction means Hiding internal implementation and show only what is the method do.
+
+3- The Final keyword are assign to a variable to restrict modification and become a constant, and for a class to restrict instantiation.
+
+4- the singleton pattern are on of the design patterns that ensures existion of Only one object of the class.
+
+5- Static Type Polymorphism occurs when the method execution is determined at compile time rather than at runtim.
+
+6:
+ 
+a- false
+
+b- true
+
+c- true
