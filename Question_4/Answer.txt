@@ -10,10 +10,8 @@
 
 5- Static Type Polymorphism occurs when the method execution is determined at compile time rather than at runtim.
 
-6:
- 
-a- false
+6- a- false
 
-b- true
+   b- true
 
-c- true
+   c- true
