@@ -1,0 +1,39 @@
+1- 0  1  2  3 
+
+2- After DisplayeData Call 
+   (wait 1 second to fetch data)
+   Data Fetched!
+
+3- Hello,Guest!
+  
+4- Window{}
+
+5- undefined
+
+6- bear bear
+   tiger sheep
+
+7- undefined
+
+8- swim
+
+
+
+===================================================================================
+Answer Explanations:
+
+1- In operartor are traverse for all the keys (index) in the array.
+
+2- the Event Loop handles the synchronous operation first in the call stack and then get the fetch functoinn form the callback queue to excute in the call stack after one second.
+
+3- the optional operator returns the right handside if the left handside is null or undefined, so both statements will log "Hello,Guest!" but the seconed re-render will remove the first result.
+
+4- this here is refer to the current excution context which is window object {}
+
+5- static method are called by class name not any other object.
+
+6- slice method here performs shallow copy for the nested object in the array means that the two array will share the same refrenece for the nested object unlike (deepCopy).
+
+7- for the same reason in question 5,this here refers to the current excution context is bearSound() method which is window object.
+
+8- the key are a funtion that takes animal as an argument and return true if this animal is qual to "Salmon".
