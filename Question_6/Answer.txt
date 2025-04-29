@@ -1,0 +1,64 @@
+1- Adding numbers to the dependency array are esstenial to cash the result when states changes to prevent reclaculation of expensive functions.
+
+2- A Pure Function doesn't concern or deal with any extrenal data or props ,it has it's own properties.
+const PureComponent = () => {
+const [counter,setCounter] = useState(0)
+ return (
+    <>
+        <button onclick={() => setCounter(counter++)}>{counter}</button>
+    </>
+   )
+}
+where, impure function deals and intracts with other components or functoins to get it's own data from (Props/API)
+const ImpPureComponent = ({props}) => {
+ return (
+    <>
+        <button>{Props}</button>
+    </>
+   )
+}
+
+3- const DropDownMenu = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const dropRef = useRef();
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+  return (
+    <>
+      <button onClick={toggleMenu} ref={dropRef}>
+        {isOpen ? 'Close' : 'Menu'}
+      </button>
+      {isOpen && (
+        <div>
+          <p>Option 1</p>
+          <p>Option 2</p>
+          <p>Option 3</p>
+        </div>
+      )}
+    </>
+  );
+};
+
+4- Mounting happens when component is being created and inserted into the DOM , Updating when component is being rerendered and Unmounting when remove the component from the DOM.
+const Component = () => {
+  const [counter,setCounter] = useState(0);
+  componentDidMount() {
+     console.log(`Component Did Mount : {counter}`)
+  }
+  componentDidUpdate(){
+    setCounter(counter++);
+    console.log(`component Did Update : {counter}`)
+  }
+  componentWillUnmount(){
+     console.log('Component will unmount');
+  }
+ return (
+    <>
+       <button>{counter}</button>
+    </>
+   )
+}
+
+5- closure is a function that return access to it's outer function varaibles even if the outer function has been terminated.
+  and this function returns the global variable a berfore even made any change, so the output of both logs will be 1 
