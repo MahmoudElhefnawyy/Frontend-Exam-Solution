@@ -17,10 +17,7 @@
 
 8- swim
 
-
-
-===================================================================================
-Answer Explanations:
+Answers Explanations:
 
 1- In operartor are traverse for all the keys (index) in the array.
 
