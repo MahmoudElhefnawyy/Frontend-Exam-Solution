@@ -26,3 +26,13 @@ A React application showcasing:
    - Error boundaries and loading states
 5. **Local Storage**
    - storing notes with information locally
+```
+frontend-assignment/
+├── Question_1/ #  React notes Project
+├── Question_2/ #  Explain Core Frontend Concepts
+├── Question_3/ #  Expect the Output (Javascript)
+├── Question_4/ #  Oop Concepts  
+├── Question_5/ #  Problem Solving  
+└── Question_6/ #  React Fundemental Concepts
+```
+
