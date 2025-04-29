@@ -1,0 +1,28 @@
+1- Reconciliation Process in react means comparing virtual Dom with real Dom to get the most updated state and decides which parts of the UIs need to be re-rendered when the application state changes.
+
+2- React handles props drilling by using Context API to provide a way to pass data dirctly to a nested component without sharing props between intermediate componenets ,
+   props drilling downsides is difficult maintainbiltiy and unnecessary rerenders Because all the components have the same props.
+
+3- Stateful componenet has his Own state with updates, where Stateless componenet only get data from props.
+
+4- No,Arrow Function Doesn't have it's own this binding and Inherits this from parent element.
+
+5- No,map() method does not mutate the original array. Instead, it return a new array with the results of applying the callback function on each element in the original array.
+
+6- map function return a new array contains all the elements after applying the callback function , where forEach doesn't return anything instead it traverse on each element and excute a callback function.
+
+7- Promise is an object that represent the eventual completion or failure of an asynchronous operation and its resulting value based on state.
+
+8- Object immutation are performed by using built-in Object method like Object.freeze() that prevent add/delete/update and Object.Seal() that prevent add/delete only.
+
+9- parse JSON performed by using JSON.parse() method that converts JSON to javascript object and use JSON.stringify for vice versa.
+
+10- Handling exeptions in asynchronous operations such a promise are performed by using try & catch statements and also we can add the Finally statement in the end.
+
+11- environment variables are dynamic variables stored and encapsulted for later use ,they stores sensitive data outside the codebase.
+
+12- Responsive Design is an approach that ensures a website adapts to different screen sizes (desktop, tablet,mobile), we can apply by using Media Queries,relative units(em,rem) and flex/grid css models.
+
+13- key exists by using For...IN loop that traverse for all the keys in the object,hasOwnProperty method and Object.keys() that return all the keys in an Object.
+
+14- Memoization is an optimization technique that caches the results of expensive function and returns the cached result when the same input occur again.
